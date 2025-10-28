@@ -1,0 +1,5 @@
+{
+  "name": "Customer Care Copilot",
+  "description": "An AI-powered assistant for riders of a ride-hailing app to get help with their questions and issues.",
+  "requestFramePermissions": []
+}

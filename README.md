@@ -1,11 +1,36 @@
-<div align="center">
+# Ride Help Assistant (Frontend/Backend Architecture)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This application has been structured into a dedicated frontend (the user interface) and a backend (the AI logic server).
 
-  <h1>Built with AI Studio</h2>
+## How to Run
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+You must run both the backend server and the frontend client.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Backend Setup
 
-</div>
+The backend is a Node.js server that handles all the AI processing.
+
+1.  **Install Dependencies:**
+    Open a terminal in the project's root directory and run:
+    ```bash
+    npm install
+    ```
+
+2.  **Set API Key:**
+    Ensure your `API_KEY` is set as an environment variable.
+
+3.  **Start the Server:**
+    In the same terminal, run:
+    ```bash
+    npm start
+    ```
+    You should see a message indicating `Server is running at http://localhost:3001`. Keep this terminal window open.
+
+### 2. Frontend Setup
+
+The frontend is a static web application.
+
+1.  **Open the Client:**
+    Open the `index.html` file in your web browser.
+
+The web application will now be running and will communicate with your local backend server to process requests.
